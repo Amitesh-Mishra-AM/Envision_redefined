@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+
+/* Responsive footer for phone */
+.footer{
+    display: grid;
+    grid-template-rows: 250px 180px 170px;
+    grid-template-columns: auto;
+    height: 600px;
+    background-color:#33009a;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .logoforfoot{
+    padding-left: 12rem;
+  }
+  .logoforfoot{
+    padding-top: 3rem;
+  }
+  footer{
+    padding-left: 1.8rem;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .quicklink{
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    margin: 0;
+  }
+  .email input{
+    height: 25px;
+    width: 210px;
+    margin: 7px;
+    border-radius: 7px;
+    border: white;
+    padding: 10px;
+    padding-top: 10px;
+  }
+  .email{
+    padding-left: 2rem;
+  }
+  .email b{
+    padding-left: 1.1rem;
+  }
+  / ----------Features------- */
+  .grid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    padding: 1rem;
+    padding-bottom: 6rem;
+  }
+  .tool1{margin-bottom: 1.5rem;}
+  .tool2{margin-bottom: 1.5rem;}
+
+  

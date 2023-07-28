@@ -1,0 +1,235 @@
+/* -------------------------------------- fonts ---------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* -------------------------------------- fonts ---------------------------------------------------- */
+
+@tailwind base;
+@tailwind components;
+
+html{
+  scroll-behavior: smooth;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("images/bg-2.jpeg");
+  
+    min-height: 100vh;
+    min-width: 100vw;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+
+  /*__________________________________ footer css starts _______________________________________________________ */
+  .footer{
+    display: grid;
+    grid-template-columns: 300px 400px 647px;
+    background-color:#0A85E4;
+    height: 180px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  footer{
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    font-size: 0.92rem;
+  }
+  .quicklink{
+    color: #003152;
+    padding-left: 10rem;
+    display: list-item;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    padding-left: 8.3rem;
+    list-style: none;
+    padding-top: 0.9rem;
+    padding-bottom: 10px;
+    font-weight: 2000;
+
+  }
+  .quicklink li a{
+    display: list-item;
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 3px;
+  }
+  .quicklink li a:hover{
+    color: #003152;
+  }
+  .email b{
+    color: #003152;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem; 
+    padding-bottom: 10px;
+    padding-left: 0.5rem;
+  }
+  .email{
+    padding-top: 1rem;
+    padding-left: 3rem;
+  }
+  .email input{
+    height: 25px;
+    width: 400px;
+    margin: 7px;
+    border-radius: 0.2rem;
+    border: white;
+    padding: 10px;
+    padding-top: 10px;
+
+  }
+  .button .Subscribe2{
+    display: none;
+  }
+  .logoforfoot{
+    padding-top: 1.6rem;
+    padding-left: 1.2rem;
+    padding-bottom: 0.4rem;
+  }
+  button{
+    padding: 15px 40px;
+    background-color: #003152;
+    border: none;
+    color: #34FFFB;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  button:hover{
+    background-color: #0064a7;
+  }
+
+#shadow{
+  text-shadow: 2px 2px 14px #0000006e;
+}
+
+  /*__________________________________ footer css ends _______________________________________________________ */
+  
+/* --------------------------------------------------------------------------Review-------------------------------------------------------------------- */
+.testimonials-heading{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#testimonials{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.testimonial-heading h1{
+  font-size: 2.2rem;
+}
+.testimonial-heading span{
+  font-size: 1.3rem;
+  color: #003152;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+.testimonial-box-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 5.5rem;
+  padding-bottom: 5rem;
+  justify-content: space-around;
+}
+.testimonial-box{
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  padding: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+.profile-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.profile-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.name-user{
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong{
+  color: #003152;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.name-user span{
+  color: #003152;
+  font-size: 0.8rem;
+}
+.review{
+  color: #003152;
+  padding-left: 5rem;
+  align-items: center;
+}
+.box-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.client-comment{
+  font-size: 0.9rem;
+  color: #003152;
+}
+.testimonial-box:hover{
+  transform: translateY(-10px);
+  transition: all ease0.3s;
+}
+.reviewheading{
+  padding-bottom: 2rem;
+}
+
+/* ---------------------------------------------------- Review ends ----------------------------------------------------- */
+
+/* search css starts */
+#selectedOption {
+  color: black;
+}
+#campaigns{
+  background-color: #78C1F3;
+}
+
+#flexContainer-1{
+  display: flex;
+  justify-content: space-between;
+}
+#flexContainer-2{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* search css ends */
+
+@tailwind utilities;
